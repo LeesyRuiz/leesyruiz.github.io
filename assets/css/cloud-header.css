@@ -1,0 +1,12 @@
+header {
+  background:
+  linear-gradient(
+    rgba(71,69,209,0.2),
+    rgba(255,102,0, 0.3),
+    rgba(255,102,0, 0.3),
+    rgba(255,102,0, 0.3)
+     ),
+    url('../../assets/sky.jpg');
+    background-size: cover;
+    height: 100vh;
+  }

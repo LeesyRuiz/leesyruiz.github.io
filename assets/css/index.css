@@ -1,0 +1,87 @@
+html {
+  /*width:100%;
+  height:100%;*/
+}
+
+
+body {
+  /*display:table;*/
+  /*width:100%;
+  height:100%;*/
+  margin:0;
+
+}
+
+section {
+  height:100vh;
+  position:relative;
+}
+
+h2{
+  font-size: calc(.5em + 10vw);
+
+}
+
+a{
+  text-decoration: none;
+}
+
+section > div {
+  text-align:center;
+
+}
+
+.one {
+  background: white;
+  color:blue;
+  padding-top: 200px;
+  text-align: center;
+}
+
+
+/*cloud*/
+
+.three {
+  background-color: white;
+ }
+
+
+
+#cloud{
+  color: #f79f9a;
+ }
+
+/*shittown*/
+.two {
+  background-color: white;
+}
+
+
+.stown  {
+  height: 80vh;
+  /*width: 90%;*/
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+}
+
+.stownhover a {
+  font: bold 100px/80px  "Times", serif;
+   color: #f79f9a;
+  text-decoration: none;
+}
+
+.stownhover a:hover {
+  font-size: 0;
+  line-height: 0;
+}
+
+.stownhover a:hover:before {
+  content: attr(data-hover);
+  font-size:100px;
+  line-height: 80px;
+   margin-bottom: -10px;
+}
