@@ -24,7 +24,9 @@
 
   color: blue;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: Futura, sans-serif;
+
   font-size: 14px;
   transform: translatey(-50%);
 }

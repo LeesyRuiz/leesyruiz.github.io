@@ -19,8 +19,8 @@ section {
 
 h2{
   font-size: calc(.5em + 10vw);
-
-}
+  font-family: Futura, sans-serif;
+ }
 
 a{
   text-decoration: none;
