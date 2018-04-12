@@ -1,14 +1,12 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 <head>
-   <meta charset="utf-8">
+  <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="assets/css/index.css">
   <link rel="stylesheet" type="text/css" href="assets/css/cursors.css">
   <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
   <link rel="stylesheet" type="text/css" href="assets/css/cloud.css">
-
-
 
   <title></title>
 
@@ -16,121 +14,60 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-
-
 </head>
-
-
-
 
 <body>
 
   <section class="one">
     <div>
-      <h2>lēsē<h2>
+      <h1> lese</h1>
+      <h2>lēsē</h2>
       </div>
 
     </section>
 
-
-
-
-    <section class="two" >
-      <div class="stownhover" >
-
-          <img  class="dog stown" src="assets/PNGresume.png"   >
-         <!-- <a href="antiquarian-programmer.html"  data-hover="antiquarian... programmer?" >
-          <img class="dog stown"  src="assets/john.gif"   >
-
-
-        </a> -->
-       </div>
+    <section class="two">
+      <div class="video" >
+        <iframe width="1500" height="843.75" src="https://www.youtube.com/embed/4QTuWFTkbdQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
     </section>
 
+    <!-- <section class="three">
+    <div>
 
 
+  </div>
+</section> -->
 
+<!-- <section class="four">
+</section> -->
 
+<section id="last" class="one">
+  <div>
+    <a href="an-ode-to-codepen.html">
+      <img class="tv codepen" src="assets/">
+    </a>
+  </div>
+</section>
 
-    <section class="three">
-       <div>
-        <!-- <div id="clouds" class="planet">
-          <div class="cloud x1 planet"></div>
-          <div class="cloud x2 planet"></div>
-          <a   href="cloud-wait-what.html">
-            <h2 class="planet" id="cloud">what is the cloud?<h2>
-            </a>
-          </div> -->
+<div  class="pin container space-between">
+  <a class="underline" href="resume.html">resume</a>
+  <a class="underline" href="https://twitter.com/bubsolow">twitter</a>
+  <a class="underline" href="https://github.com/LeesyRuiz">github</a>
+  <a class="underline" href="https://www.linkedin.com/in/lisetteruiz">linkedin</a>
+</div>
 
-          <!-- <iframe width="1500" height="843.75" src="https://www.youtube.com/embed/4QTuWFTkbdQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+</body>
 
+<script>
 
-        </div>
-      </section>
+$('document').ready(function() {
+  $(document).scroll(function(){
+    if(document.documentElement.clientHeight +
+      $(document).scrollTop() >= document.body.offsetHeight )$(document).scrollTop(0);
+    });
+  });
 
+  </script>
 
-
-      <!-- <section class="four">
-      </section> -->
-
-      <section id="last" class="one">
-        <div  >
-          <a href="an-ode-to-codepen.html">
-            <img class="tv codepen" src="assets/">
-          </a>
-        </div>
-      </section>
-
-
-
-      <div  class="pin container space-between">
-        <a class="underline" href="#">home</a>
-        <a class="underline" href="https://twitter.com/bubsolow">twitter</a>
-        <a class="underline" href="https://github.com/LeesyRuiz">github</a>
-        <a class="underline" href="https://www.linkedin.com/in/lisetteruiz">linkedin</a>
-      </div>
-
-
-    </body>
-
-
-
-
-    <script language="JavaScript1.2">
-    var currentpos=0,alt=1,curpos1=0,curpos2=-1
-    function initialize(){
-      startit()
-    }
-
-    function scrollwindow(){
-      if (document.all)
-      temp=document.body.scrollTop
-      else
-      temp=window.pageYOffset
-      if (alt==0)
-      alt=1
-      else
-      alt=0
-      if (alt==0)
-      curpos1=temp
-      else
-      curpos2=temp
-      if (curpos1!=curpos2){
-        if (document.all)
-        currentpos=document.body.scrollTop+1
-        else
-        currentpos=window.pageYOffset+1
-        window.scroll(0,currentpos)
-      }
-      else{
-        currentpos=0
-        window.scroll(0,currentpos)
-      }
-    }
-    function startit(){
-      setInterval("scrollwindow()",10)
-    }
-    window.onload=initialize
-    </script>
-
-    </html>
+  </html>

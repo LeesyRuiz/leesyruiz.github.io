@@ -7,7 +7,6 @@
   box-sizing: border-box;
   padding: 2rem;
   text-decoration: none;
-  /*box-shadow: 0 1rem 5rem -2rem rgba(black,0.5);*/
   transition: transform 100ms linear;
   display: flex;
 }
@@ -21,16 +20,13 @@
 }
 
 .pin >  a {
-
   color: blue;
   text-decoration: none;
-  /*font-family: 'Roboto', sans-serif;*/
   font-family: Futura, sans-serif;
-
-  font-size: 14px;
+  font-size: 17px;
   transform: translatey(-50%);
 }
 
 a.underline:hover {
-  border-bottom: 4px solid ;
+  border-bottom: 4px solid #fcfd05 ;
 }
